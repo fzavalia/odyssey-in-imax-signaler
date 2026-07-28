@@ -137,19 +137,4 @@ async function sendTelegramNotification(): Promise<void> {
   console.info("sent Telegram notification");
 }
 
-async function run(): Promise<void> {
-  try {
-    await process();
-  } catch (error) {
-    console.error("unable to process", error);
-  }
-}
-
-void run();
-
-setInterval(
-  () => {
-    void run();
-  },
-  60 * 60 * 1000,
-);
+void process();

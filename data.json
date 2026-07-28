@@ -1,0 +1,490 @@
+{
+  "id": 5875,
+  "name": "La Odisea",
+  "days": {
+    "2026-07-28": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 565503,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 565504,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 565505,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-07-29": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 565506,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 565507,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 565508,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 565509,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-07-30": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566359,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 566360,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 566361,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 566362,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-07-31": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566363,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 566364,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 566365,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 566366,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-01": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566367,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 566368,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 566369,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 566370,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-02": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566371,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 566372,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 566373,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 566374,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-03": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566389,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 566376,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 566377,
+                "showTime": "19:00"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-04": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566390,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 566380,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 566381,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 566382,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-05": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566391,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 566384,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 566385,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 566386,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-06": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566831,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 566832,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 566833,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 566834,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-07": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566835,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 566836,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 566837,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 566838,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-08": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566839,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 566840,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 566841,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 566842,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-09": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566843,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 566844,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 566845,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 566846,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-10": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566847,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 566848,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 566859,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 566850,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-11": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566851,
+                "showTime": "12:25"
+              },
+              {
+                "performanceId": 566852,
+                "showTime": "16:00"
+              },
+              {
+                "performanceId": 566854,
+                "showTime": "22:15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-12": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 566855,
+                "showTime": "11:50"
+              },
+              {
+                "performanceId": 566856,
+                "showTime": "15:25"
+              },
+              {
+                "performanceId": 566857,
+                "showTime": "19:00"
+              },
+              {
+                "performanceId": 566858,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
