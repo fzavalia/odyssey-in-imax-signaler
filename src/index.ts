@@ -38,6 +38,7 @@ async function process(): Promise<void> {
 
   if (!lMovieData) {
     await writeFile(DATA_FILE, JSON.stringify(rMovieData, null, 2), "utf-8");
+
     console.info("saved initial movie data");
 
     return;
@@ -46,10 +47,7 @@ async function process(): Promise<void> {
   const rLatestFunction = getLatestFunction(rMovieData);
   const lLatestFunction = getLatestFunction(lMovieData);
 
-  console.info("compared latest showtimes", {
-    remote: rLatestFunction,
-    local: lLatestFunction,
-  });
+  console.info("compared latest showtimes", { remote: rLatestFunction, local: lLatestFunction });
 
   if (rLatestFunction <= lLatestFunction) {
     console.info("no new showtimes found");
@@ -60,6 +58,10 @@ async function process(): Promise<void> {
   console.info("new showtimes found");
 
   await sendTelegramNotification();
+
+  await writeFile(DATA_FILE, JSON.stringify(rMovieData, null, 2), "utf-8");
+
+  console.info("updated movie data");
 }
 
 async function fetchMovieData(): Promise<MovieData> {
