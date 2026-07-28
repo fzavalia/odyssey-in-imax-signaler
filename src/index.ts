@@ -31,11 +31,14 @@ const TG_BOT_KEY = env.TG_BOT_KEY;
 const TG_CHAT_ID = env.TG_CHAT_ID;
 
 async function process(): Promise<void> {
+  console.info("checking for new showtimes");
+
   const rMovieData = await fetchMovieData();
   const lMovieData = await getLocalMovieData();
 
   if (!lMovieData) {
     await writeFile(DATA_FILE, JSON.stringify(rMovieData, null, 2), "utf-8");
+    console.info("saved initial movie data");
 
     return;
   }
@@ -43,23 +46,46 @@ async function process(): Promise<void> {
   const rLatestFunction = getLatestFunction(rMovieData);
   const lLatestFunction = getLatestFunction(lMovieData);
 
+  console.info("compared latest showtimes", {
+    remote: rLatestFunction,
+    local: lLatestFunction,
+  });
+
   if (rLatestFunction <= lLatestFunction) {
+    console.info("no new showtimes found");
+
     return;
   }
+
+  console.info("new showtimes found");
 
   await sendTelegramNotification();
 }
 
 async function fetchMovieData(): Promise<MovieData> {
+  console.info("fetching movie data");
+
   const response = await fetch("https://api.voyalcine.net/films/5875/tree/3250");
+
+  if (!response.ok) {
+    throw new Error(`unable to fetch movie data: ${response.status}`);
+  }
+
+  console.info("fetched movie data");
 
   return await response.json();
 }
 
 async function getLocalMovieData(): Promise<MovieData | null> {
   try {
-    return JSON.parse(await readFile(DATA_FILE, "utf8")) as MovieData;
+    const movieData = JSON.parse(await readFile(DATA_FILE, "utf8")) as MovieData;
+
+    console.info("loaded local movie data");
+
+    return movieData;
   } catch (error) {
+    console.warn("unable to load local movie data", error);
+
     return null;
   }
 }
@@ -89,7 +115,9 @@ async function sendTelegramNotification(): Promise<void> {
     throw new Error("missing Telegram configuration");
   }
 
-  await fetch(`https://api.telegram.org/bot${TG_BOT_KEY}/sendMessage`, {
+  console.info("sending Telegram notification");
+
+  const response = await fetch(`https://api.telegram.org/bot${TG_BOT_KEY}/sendMessage`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -99,18 +127,27 @@ async function sendTelegramNotification(): Promise<void> {
       text: "Hay nuevas funciones para la Odisea! https://entradas.todoshowcase.com/showcase/pelicula?filmid=5875&house_id=3250",
     }),
   });
+
+  if (!response.ok) {
+    throw new Error(`unable to send Telegram notification: ${response.status}`);
+  }
+
+  console.info("sent Telegram notification");
 }
 
-void process();
+async function run(): Promise<void> {
+  try {
+    await process();
+  } catch (error) {
+    console.error("unable to process", error);
+  }
+}
+
+void run();
 
 setInterval(
   () => {
-    try {
-      void process();
-    } catch (error) {
-      console.error("unable to process");
-      console.error(error);
-    }
+    void run();
   },
   60 * 60 * 1000,
 );
