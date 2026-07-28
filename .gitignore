@@ -1,3 +1,4 @@
 node_modules
 dist
-response.json
+data.json
+.env
