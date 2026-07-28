@@ -1,4 +1,4 @@
-name: Check showtimes
+name: Check Showtimes
 
 on:
   schedule:
