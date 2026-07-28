@@ -3,7 +3,7 @@ import { config } from "dotenv";
 config();
 
 import { readFile, writeFile } from "node:fs/promises";
-import { env } from "node:process";
+import { argv, env } from "node:process";
 
 type MovieData = {
   id: number;
@@ -31,6 +31,12 @@ const TG_BOT_KEY = env.TG_BOT_KEY;
 const TG_CHAT_ID = env.TG_CHAT_ID;
 
 async function process(): Promise<void> {
+  if (argv.includes("--test-telegram")) {
+    await sendTelegramNotification();
+
+    return;
+  }
+
   console.info("checking for new showtimes");
 
   const rMovieData = await fetchMovieData();
