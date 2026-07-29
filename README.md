@@ -1,4 +1,4 @@
-# Imax Odyssey
+# Odyssey in Imax Signaler
 
 Monitors IMAX showtimes at Norcenter and sends a Telegram notification when new screenings become available.
 
