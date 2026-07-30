@@ -2,64 +2,6 @@
   "id": 5875,
   "name": "La Odisea",
   "days": {
-    "2026-07-28": [
-      {
-        "id": 18,
-        "name": "IMAX Theatre (Norcenter)",
-        "ewaveId": 3204,
-        "formats": [
-          {
-            "formatDescription": "IMAX-Subtitulado",
-            "showId": "86868A",
-            "performances": [
-              {
-                "performanceId": 565503,
-                "showTime": "15:25"
-              },
-              {
-                "performanceId": 565504,
-                "showTime": "19:00"
-              },
-              {
-                "performanceId": 565505,
-                "showTime": "22:35"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "2026-07-29": [
-      {
-        "id": 18,
-        "name": "IMAX Theatre (Norcenter)",
-        "ewaveId": 3204,
-        "formats": [
-          {
-            "formatDescription": "IMAX-Subtitulado",
-            "showId": "86868A",
-            "performances": [
-              {
-                "performanceId": 565506,
-                "showTime": "11:50"
-              },
-              {
-                "performanceId": 565507,
-                "showTime": "15:25"
-              },
-              {
-                "performanceId": 565508,
-                "showTime": "19:00"
-              },
-              {
-                "performanceId": 565509,
-                "showTime": "22:35"
-              }
-            ]
-          }
-        ]
-      }
-    ],
     "2026-07-30": [
       {
         "id": 18,
@@ -70,14 +12,6 @@
             "formatDescription": "IMAX-Subtitulado",
             "showId": "86868A",
             "performances": [
-              {
-                "performanceId": 566359,
-                "showTime": "11:50"
-              },
-              {
-                "performanceId": 566360,
-                "showTime": "15:25"
-              },
               {
                 "performanceId": 566361,
                 "showTime": "19:00"
@@ -479,6 +413,179 @@
               },
               {
                 "performanceId": 566858,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-13": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 567149,
+                "showTime": "14:30"
+              },
+              {
+                "performanceId": 567150,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-14": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 567151,
+                "showTime": "14:30"
+              },
+              {
+                "performanceId": 567152,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-15": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 567163,
+                "showTime": "11:00"
+              },
+              {
+                "performanceId": 567153,
+                "showTime": "14:30"
+              },
+              {
+                "performanceId": 567154,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-16": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 567164,
+                "showTime": "11:00"
+              },
+              {
+                "performanceId": 567155,
+                "showTime": "14:30"
+              },
+              {
+                "performanceId": 567156,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-17": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 567165,
+                "showTime": "11:00"
+              },
+              {
+                "performanceId": 567157,
+                "showTime": "14:30"
+              },
+              {
+                "performanceId": 567158,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-18": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 567159,
+                "showTime": "14:30"
+              },
+              {
+                "performanceId": 567160,
+                "showTime": "22:35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2026-08-19": [
+      {
+        "id": 18,
+        "name": "IMAX Theatre (Norcenter)",
+        "ewaveId": 3204,
+        "formats": [
+          {
+            "formatDescription": "IMAX-Subtitulado",
+            "showId": "86868A",
+            "performances": [
+              {
+                "performanceId": 567161,
+                "showTime": "14:30"
+              },
+              {
+                "performanceId": 567162,
                 "showTime": "22:35"
               }
             ]
