@@ -1,10 +1,11 @@
 name: Check Showtimes
 
 on:
-  schedule:
-    # Run every hour at minute 17 in Buenos Aires time.
-    - cron: "17 * * * *"
-      timezone: "America/Argentina/Buenos_Aires"
+  # Schedule disabled: project is deprecated. Manual runs still work.
+  # schedule:
+  #   # Run every hour at minute 17 in Buenos Aires time.
+  #   - cron: "17 * * * *"
+  #     timezone: "America/Argentina/Buenos_Aires"
   workflow_dispatch:
 
 # Allow the workflow to commit updated movie data.
